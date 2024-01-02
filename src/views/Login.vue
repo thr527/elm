@@ -28,7 +28,7 @@ export default {
     },
     methods:{
       toLogin(){
-      this.$router.push({path:'/Register'})
+      this.$router.push({path:'/'})
     },
     toRegister(){
       this.$router.push({path:'/Test'})
