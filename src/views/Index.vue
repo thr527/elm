@@ -220,8 +220,11 @@ export default {
             toBusListshow(id){
                 //路由传参有两种方式：params和query
                 //要使用对象方式来push 使用{}来表示
-                alert(id);
-                this.$router.push({path:"/BusList"})
+                
+                this.$router.push({
+                    path:"/busList" ,
+                    id:id,
+            })
             },
     },
     components:{

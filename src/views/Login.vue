@@ -31,7 +31,7 @@ export default {
       this.$router.push({path:'/'})
     },
     toRegister(){
-      this.$router.push({path:'/Test'})
+      this.$router.push({path:'/test'})
     }
 
     }

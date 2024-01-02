@@ -3,6 +3,7 @@ import Index from '@/views/Index.vue'
 import Login from '@/views/Login.vue'
 import Test from '@/views/Test.vue'
 import BusList from '@/views/BusList.vue'
+import BusInfo from '@/views/BusInfo.vue'
 
 const routes = [
   //重定向
@@ -11,22 +12,25 @@ const routes = [
     component:Index
   },
   {
-    path:'/Index',                                                                                                                                                                                                                                                                       
+    path:'/index',                                                                                                                                                                                                                                                                       
     component: Index
   },
   {
-    path:'/Login',
+    path:'/login',
     component:Login,
   },
   {
-    path:'/Test',
+    path:'/test',
     component:Test,
   },
   {
-    path:'/BusList',
+    path:'/busList',
     component:BusList,
   },
-
+  {
+    path:'/busInfo',
+    component:BusInfo,
+  },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 ]
 
