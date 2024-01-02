@@ -1,20 +1,37 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Index from '@/views/Index.vue'
+import Login from '@/views/Login.vue'
+import Register from '@/views/Register.vue'
+import Test from '@/views/Test.vue'
+import BusList from '@/views/BusList.vue'
 
 const routes = [
+  //重定向
   {
-    path: '/',
-    name: 'home',
-    component: HomeView
+    path:'/',
+    component:Index
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
+    path:'/Index',                                                                                                                                                                                                                                                                       
+    component: Index
+  },
+  {
+    path:'/Login',
+    component:Login,
+  },
+  {
+    path:'/Test',
+    component:Test,
+  },
+  {
+    path:'/BusList',
+    component:BusList,
+  },
+  {
+    path:'/Register',
+    component:Register
+  },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 ]
 
 const router = createRouter({
