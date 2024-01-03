@@ -4,6 +4,7 @@ import Login from '@/views/Login.vue'
 import Test from '@/views/Test.vue'
 import BusList from '@/views/BusList.vue'
 import BusInfo from '@/views/BusInfo.vue'
+import Payment from '@/views/Payment.vue'
 
 const routes = [
   //重定向
@@ -30,6 +31,10 @@ const routes = [
   {
     path:'/busInfo',
     component:BusInfo,
+  },
+  {
+    path:'/payment',
+    component:Payment,
   },
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 ]

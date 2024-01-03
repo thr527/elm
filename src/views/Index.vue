@@ -5,13 +5,13 @@
             <div class="icon-location-box">
                  <div class="icon-location"></div>
             </div>
-      <div class="location-text">
-        沈阳市规划大厦<i class="fa fa-caret-down"></i>
+      <div class="location-text" >
+        沈阳<i class="fa fa-caret-down"></i>
       </div>
         </header>
         <div class="search" ref="seach">
             <div class="search-box" >
-                <li class="text">搜索</li>
+                搜索<input class="text"/>
             </div>
         </div>
         <ul class="choose_box">
@@ -108,7 +108,7 @@ export default {
             let sec=this.$refs.seach;
             if(sc>width_w*0.12){
                 sec.style.position='fixed';
-                sec.style.top='10px';
+                sec.style.top='0px';
                 sec.style.left='0px';
                 console.log('固定')
             }else{
@@ -245,17 +245,18 @@ export default {
 }
 .wap header{
     width: 100%;
-    height: 12vw;
-     border: 2px black solid;
-     background: rgb(120, 120, 239);
+    height: 15vw;
+    border: 2px rgb(250, 247, 247) solid;
+    text-align: start;
+    background: #0097FF;
 }
 
 .icon-location-box{
-    margin-left: 20px;
+    margin-left: 2px;
     padding: 2px;
 }
 .location-text{
-    margin-left: 20px;
+    margin-left: 2vw;
 }
 .content{
     padding:12vw ;
