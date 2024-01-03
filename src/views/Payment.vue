@@ -2,7 +2,7 @@
     <!-- 支付页面 -->
     <div class="pay">
         <header>
-            <h2>支付订单</h2>
+            <h2>支付订单i</h2>
         </header>
         <!-- 订单信息框 -->
         <div class="paymassage">
